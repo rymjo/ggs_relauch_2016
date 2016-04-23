@@ -1,0 +1,34 @@
+<header id="head" class="secondary"></header>
+
+<!-- container -->
+<div class="container">
+
+  <ol class="breadcrumb">
+    <li><a href="#/">Home</a></li>
+    <li class="active">Projekte</li>
+  </ol>
+
+  <div class="row">
+    <article class="col-sm-12 maincontent">
+      <br>
+      <p><input type="text" ng-model="projekt.search" class="search-query" id="projekt_search" placeholder="Suchen..."> </p>
+    </article>
+    <!-- Article main content -->
+    <article class="col-sm-12 maincontent" ng-repeat="item in alleProjekte | filter:projekt.search | orderBy:'DATUM':true">
+      <header class="page-header">
+        <h1 class="page-title">{{item.titel}}</h1>
+      </header>
+      <p> {{item.datum}}
+      </p>
+      <p> {{item.beschreibung}}
+      </p>
+
+      <p ng-if="item.images.length > 0">
+        <ng-gallery images="item.images" thumbs-num="item.anzahl_der_bilder"></ng-gallery>
+      </p>
+    </article>
+  </div>
+</div>
+
+
+

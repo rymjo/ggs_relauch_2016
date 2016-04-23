@@ -1,0 +1,207 @@
+<header id="head" class="secondary"></header>
+
+<!-- container -->
+<div class="container">
+
+  <ol class="breadcrumb">
+    <li><a href="#/">Home</a></li>
+    <li class="active">Wir über uns</li>
+  </ol>
+
+  <div class="row">
+
+    <!-- Article main content -->
+    <article class="col-sm-8 maincontent">
+      <header class="page-header">
+        <h1 class="page-title">Wir über uns</h1>
+      </header>
+      <p>Unsere Schule soll nicht allein Unterrichtsstätte, sondern ein Lebens- und Erfahrungsraum sein, in dem die
+        Kinder sich sicher und geborgen fühlen. In einer positiven Atmosphäre sollen sie eigentätig lernen können. Wir
+        wollen ihre Lernfreude und ihre Bereitschaft zu neuen Lernanstrengungen fördern und sie zu selbständigem,
+        verantwortungsbewusstem Handeln erziehen. Im Umgang aller an der Schule Beteiligten sind uns Mitmenschlichkeit,
+        engagierte sachliche Auseinandersetzung und kooperative Zusammenarbeit besonders wichtig. In diesem Sinne hat
+        die Erziehung der Kinder zu sozialem Verhalten an unserer Schule einen hohen Stellenwert. Das Miteinander von
+        Kindern unterschiedlicher erkunft, Begabung und Religionszugehörigkeit erfordert ein hohes Maß an Toleranz,
+        Achtung und Einfühlungsvermögen. Um diese Eigenschaften sollten sich Kinder wie Erwachsene im Umgang miteinander
+        bemühen.
+        <br>
+        <br>
+        <b>Miteinander leben - voneinander lernen</b>
+      </p>
+
+    </article>
+    <!-- Sidebar -->
+    <aside class="col-sm-4 sidebar sidebar-right">
+
+      <div class="widget">
+        <h4>Direkt zu</h4>
+        <ul class="list-unstyled list-spaces">
+          <li><a href="" ng-click="scrollTo('Kollegium')">Das ist unser Kollegium</a><br><span
+            class="small text-muted"></span>
+          </li>
+          <li><a href="" ng-click="scrollTo('ziele')">Schule/Ziele</a><br><span class="small text-muted"></span>
+          </li>
+          <li><a href="" ng-click="scrollTo('wie')">Wie geht es los?</a><br><span class="small text-muted"></span>
+          </li>
+          <li><a href="" ng-click="scrollTo('wen')">Wen kennen wir?</a><br><span class="small text-muted"></span>
+          </li>
+          <li><a href="" ng-click="scrollTo('wohin')">Wohin gehen wir?</a><br><span class="small text-muted"></span>
+          </li>
+          <li><a href="" ng-click="scrollTo('was')">Was feiern wir?</a><br><span class="small text-muted"></span>
+          </li>
+          <li><a href="" ng-click="scrollTo('wo')">Wo sind wir?</a><br><span class="small text-muted"></span>
+          </li>
+        </ul>
+      </div>
+
+    </aside>
+  </div>
+  <div class="row">
+    <!-- Article main content -->
+    <article class="col-sm-12 maincontent">
+      <h3 id="Kollegium">Das ist unser Kollegium</h3>
+      <p>
+        <img src="images/alle_lehrer.gif" alt="" class="img-rounded pull-left" width="75%">
+      </p>
+    </article>
+    <article class="col-sm-12 maincontent">
+      <br>
+      <p>
+        <input type="text" ng-model="mitarbeiter.search" class="search-query" id="mitarbeiter_search"
+               placeholder="Suchen...">
+      <table class="table table-striped">
+        <thead>
+        <tr>
+          <th ng-repeat="(key, val) in alleMitarbeiter[0]">{{key | uppercase}}</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="item in alleMitarbeiter | filter:mitarbeiter.search | orderBy:'KLASSE':false">
+          <td ng-repeat="(key, val) in item">{{val}}</td>
+        </tr>
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+      </table>
+      </p>
+    </article>
+    <!-- /Article -->
+    <article class="col-sm-12 maincontent">
+      <h3 id="ziele">Schule/Ziele</h3>
+      <p>
+        In unserer Erziehungs- und Unterrichtsarbeit wollen wir über reine Wissensvermittlung hinaus die
+        Urteilsfähigkeit und Handlungsbereitschaft in sozialer Verantwortung fördern. Und wir wollen Lernsituationen so
+        gestalten, dass die Kinder in zunehmendem Maße befähigt werden, mit zu denken, mit zu planen und mit zu
+        gestalten.
+        Die Vermittlung tragfähiger Grundlagen im Lesen, Schreiben und Rechnen für jedes Kind ist eine Grundforderung,
+        die im Mittelpunkt unserer Unterrichtsarbeit steht. Dazu ist es notwendig, Leistungsbereitschaft und -fähigkeit
+        bei allen Kindern zu entwickeln. Wir wollen ihnen dabei helfen, indem wir Aufgaben stellen, die sie bewältigen
+        können und die ihnen ermutigende Erfolgserlebnisse vermitteln.
+
+        Kinder müssen aber auch lernen, Frustrationen und angemessene Kritik zu ertragen und positiv zu verarbeiten. Die
+        Erfahrung, dass erfolgreiches Lernen mit Anstrengung verbunden ist, sollte jedem Kind bewusst sein und von ihm
+        akzeptiert werden.
+
+        Um jedem Kind individuelle Förderung gemäß seiner Begabung zuteil werden zu lassen, ist uns von Anfang an die
+        Förderung des selbststäändigen Lernens besonders wichtig. Die Vermittlung von Lernstrategien zum selbstständigen
+        Aneignen von Wissensstoff, der Umgang mit Lernmaterialien und den entsprechenden Kontrollmöglichkeiten sowie der
+        effektive Einsatz von Arbeitsmaterialien bieten vielfältige Möglichkeiten der Differenzierung. Dazu zählen auch
+        in zunehmendem Maße der Computer und der Einsatz von Lernsoftware.
+
+        Die so vermittelte Methodenkompetenz kommt in den offenen Unterrichtsformen wie Freie Arbeit, Arbeit nach Plan
+        oder Werkstattunterricht zum Tragen. Sie unterstützt auch kooperative Arbeitsformen wie Partner- und
+        Gruppenarbeit und hilft den Kindern, Vertrauen in die eigenen Fähigkeiten aufzubauen.
+      </p>
+    </article>
+
+    <article class="col-sm-12 maincontent">
+      <h3 id="wie">Wie geht es los?</h3>
+      <p>
+      <table class="table table-striped">
+        <tbody>
+        <tr valign="top" align="left">
+          <td><img src="images/okt.gif" border="0" align="left"/></td>
+          <td>
+            <br/><br/>
+            <ul>
+              <li>Anmeldung der Lernanf&auml;nger</li>
+              <li>Tag der offenen T&uuml;r der Lernanf&auml;nger und deren Eltern</li>
+            </ul>
+          </td>
+        </tr>
+        <tr valign="top" align="left">
+          <td><img src="images/mai.gif" border="0" align="left"/></td>
+          <td>
+            <br/><br/>
+            <ul>
+              <li>Info-Abend f&uuml;r die Eltern</li>
+              <li>Kennenlerntag</li>
+              <li>Schulspiel (Feststellung der Lernf&auml;higkeit)</li>
+            </ul>
+          </td>
+        </tr>
+        <tr valign="top" align="left">
+          <td><img src="images/juni.gif" border="0" align="left"/></td>
+          <td>
+            <br/><br/>
+            <ul>
+              <li>Einladung zur Einschulung</li>
+            </ul>
+          </td>
+        </tr>
+        <tr valign="top" align="left">
+          <td><img src="images/aug.gif" border="0" align="left"/></td>
+          <td>
+            <br/><br/>
+            <ul>
+              <li>Erster Tag der Einschulung mit Gottesdienst, Einschulungsfeier und Unterricht</li>
+            </ul>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+      </p>
+    </article>
+
+    <article class="col-sm-12 maincontent">
+      <h3 id="wen">Wen kennen wir?</h3>
+      <p>
+        <img src="images/kontakte.jpg" alt="" class="img-rounded pull-left" width="75%">
+      </p>
+    </article>
+
+    <article class="col-sm-12 maincontent">
+      <h3 id="wohin">Wohin gehen wir?</h3>
+      <p>
+        <img src="images/kreis.jpg" alt="" class="img-rounded pull-left" width="75%">
+      </p>
+    </article>
+
+    <article class="col-sm-12 maincontent">
+      <h3 id="was">Was feiern wir?</h3>
+      <p>
+        <b>Feiern gehört zum Leben! Auch zum Schulleben!</b>
+      </p>
+      <p>
+        <img src="images/feierkreis.jpg" alt="" class="img-rounded pull-left" width="75%">
+      </p>
+    </article>
+
+    <article class="col-sm-12 maincontent">
+      <h3 id="wo">Wo sind wir?</h3>
+      <p>
+        Urdenbach ist ein schöner Stadtteil im Süden Düsseldorfs. Aber eigentlich ist er mit seinen nur 10.500
+        Einwohnern und den hübschen Fachwerkhäuschen eher ein kleines Dorf als ein Stadtteil. Für Kinder ist Urdenbach
+        daher leicht überschaubar und ein idealer Wohnort, um behütet aufzuwachsen und dennoch früh selbstständig zu
+        werden.
+
+        Unmittelbar an Urdenbach grenzt das herrliche und weitläufige Naturschutzgebiet Urdenbacher Kämpe. Diese
+        Rheinaue mit großflächigen Wiesen bietet Kindern und Eltern eine natürliche Umwelt mit vielen Möglichkeiten zum
+        Radfahren, Wandern und Spielen. Eine andere "grüne Lunge" ist der benachbarte und ausgedehnte Benrather
+        Schlosspark.
+      </p>
+    </article>
+  </div>
+</div>  <!-- /container -->
+
