@@ -5,7 +5,7 @@
   border-radius: 0;
   background: rgba(255, 255, 255, 1);
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
-  min-height: 100px;
+  min-height: 50px;
   padding-top: 10px;
   margin-bottom: 0;
 }
@@ -128,6 +128,19 @@
 .navbar-fixed-top,
 .navbar-fixed-bottom {
   border-radius: 0;
+}
+
+
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: grey;
+}
+
+.navbar-inverse .navbar-toggle {
+  border-color: #428bca;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+  border-color: #428bca;
 }
 
 /*******************************/

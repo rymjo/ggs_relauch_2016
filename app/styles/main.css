@@ -4,7 +4,7 @@
   background-size: cover;
   min-height: 520px;
   text-align: center;
-  padding-top: 240px;
+  padding-top: 140px;
   color: white;
   font-family: "Open sans", Helvetica, Arial;
   font-weight: 300;
@@ -18,7 +18,7 @@
 
 #head .lead {
   font-family: "Open sans", Helvetica, Arial;
-  font-size: 44px;
+  font-size: 48px;
   margin-bottom: 6px;
   color: rgba(255, 0, 0, 0.75);;
   line-height: 1.15em;
@@ -27,7 +27,7 @@
 #head .tagline {
   color: rgba(255, 0, 0, 0.55);
   margin-bottom: 25px;
-  font-size: 24px;
+  font-size: 28px;
 }
 
 #head .tagline a {
