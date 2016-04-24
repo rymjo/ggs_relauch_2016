@@ -232,6 +232,7 @@ module.exports = function (grunt) {
           '<%= yeoman.dist %>/styles/fonts/*',
           '<%= yeoman.dist %>/fonts/*',
           '<%= yeoman.dist %>/assets/*'
+
         ]
       }
     },
@@ -276,27 +277,27 @@ module.exports = function (grunt) {
     // By default, your `index.html`'s <!-- Usemin block --> will take care of
     // minification. These next options are pre-configured if you do not wish
     // to use the Usemin blocks.
-     cssmin: {
-       dist: {
-         files: {
-           '<%= yeoman.dist %>/styles/main.css': [
-             '.tmp/styles/{,*/}*.css'
-           ]
-         }
-       }
-     },
-     uglify: {
-       dist: {
-         files: {
-           '<%= yeoman.dist %>/scripts/scripts.js': [
-             '<%= yeoman.dist %>/scripts/scripts.js'
-           ]
-         }
-      }
-     },
-     concat: {
-       dist: {}
-     },
+   //  cssmin: {
+   //    dist: {
+   //      files: {
+   //        '<%= yeoman.dist %>/styles/main.css': [
+   //          '.tmp/styles/{,*/}*.css'
+   //        ]
+   //      }
+   //    }
+   //  },
+   //  uglify: {
+   //    dist: {
+   //      files: {
+   //        '<%= yeoman.dist %>/scripts/scripts.js': [
+   //          '<%= yeoman.dist %>/scripts/scripts.js'
+   //        ]
+   //      }
+   //   }
+   //  },
+   //  concat: {
+   //    dist: {}
+   //  },
 
     imagemin: {
       dist: {
@@ -384,7 +385,9 @@ module.exports = function (grunt) {
             'images/{,*/}*.{webp}',
             'styles/{,*/}*.*',
             'fonts/{,*/}*.*',
-            'assets/{,*/}*.*'
+            'scripts/{,*/}*.*',
+            'assets/{,*/}*.*',
+            'assets/projekte/{,*/}*.*'
 
           ]
         }, {
@@ -397,17 +400,26 @@ module.exports = function (grunt) {
           cwd: 'bower_components/bootstrap/dist',
           src: 'styles/*',
           dest: '<%= yeoman.dist %>'
-        },
-          {
-            expand: true,
-            cwd: 'fonts',
-            src: 'fonts/*',
-            dest: '<%= yeoman.dist %>/fonts'
-          },{
+        }, {
+          expand: true,
+          cwd: 'fonts',
+          src: 'fonts/*',
+          dest: '<%= yeoman.dist %>/fonts'
+        }, {
+          expand: true,
+          cwd: 'bower_components/bootstrap/dist',
+          src: 'scripts/*',
+          dest: '<%= yeoman.dist %>'
+        },{
           expand: true,
           cwd: 'assets',
           src: 'assets/*',
           dest: '<%= yeoman.dist %>/assets'
+        }, {
+          expand: true,
+          cwd: 'assets/projekte',
+          src: 'assets/projekte/*',
+          dest: '<%= yeoman.dist %>/assets/projekte'
         }]
       },
       styles: {
@@ -483,7 +495,7 @@ module.exports = function (grunt) {
     'ngAnnotate',
     'copy:dist',
     'cdnify',
-    'cssmin',
+    //'cssmin',
     'uglify',
     'filerev',
     'usemin',
