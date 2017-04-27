@@ -1,36 +1,11 @@
 [
-  {
-    "datum": "25./26./27.10.2016",
-    "titel": "Anmeldetermine für die Schulneulinge in 2017",
-    "beschreibung": "25.10.2016 15 - 18 Uhr | 26.10.2016 11- 13 Uhr und 15 - 18 Uhr | 27.10.2016 11 - 13 Uhr"
-  },
-  {
-    "datum": "31.10 2016",
-    "titel": "Pädagogischer Tag",
-    "beschreibung": "päd. Tag - OGS und Betreuung finden"
-  },
-  {
-    "datum": "18.11.2016",
-    "titel": "Stankt Martin",
-    "beschreibung": "17.15 Uhr Treffen auf dem Schulhof Urdenbacher Allee 91"
-  },
-  {
-    "datum": "03.02.2017",
-    "titel": "Zeugnisausgabe",
-    "beschreibung": ""
-  },
-  {
-    "datum": "27.02.2017",
-    "titel": "Rosenmontag",
-    "beschreibung": "Rosenmontag - unterrichtsfrei - OGS und Betreuung sind geschlossen"
-  },
-  {
+    {
     "datum": "02.05.2017",
     "titel": "Pädagogischer Tag",
     "beschreibung": "päd. Tag - OGS - Notgruppe von 8 - 16 Uhr, Betreuung geschlossen"
   },
   {
-    "datum": "08.05.2016",
+    "datum": "08.05.2017",
     "titel": "Infoabend",
     "beschreibung": "Elterninfoabend für Schulneulinge"
   },
@@ -45,6 +20,11 @@
     "beschreibung": "OGS geöffnet, Betreuung geschlossen"
   },
   {
+    "datum": "03.07.2017",
+    "titel": "SingPause",
+    "beschreibung": "11.30 Uhr - SingPausen-Konzert in der Tonhalle"
+  },
+  {
     "datum": "10.07.2017",
     "titel": "Zeugnisausgabe",
     "beschreibung": "Zeugnisausgabe für Klassen 1 - 3"
@@ -53,7 +33,41 @@
     "datum": "13.07.2017",
     "titel": "Entlassfeier",
     "beschreibung": "Entlassfeier der 4. Klassen mit Zeugnisausgabe"
+  },
+  {
+    "datum": "22.09.2017",
+    "titel": "Tag der offenen Tür",
+    "beschreibung": "09.00 - 09.45 Uhr an der Urdenbacher Allee 91; 10.15 - 11.00 Uhr an der Grather Str. 16; 17.00 Uhr Informationsveranstaltung an der Garather Str."
+  },
+  {
+    "datum": "25.09.2017",
+    "titel": "Starkes Team",
+    "beschreibung": "Informatinsveranstaltung Starkes Team um 19 Uhr im Gemeindehaus, Angerstr. 77"
+  },
+  {
+    "datum": "10.10.2017",
+    "titel": "Anmeldetermin für Geschwisterkinder",
+    "beschreibung": "Anmeldetermin für Geschwisterkinder (Bitte Termin vereinbaren)"
+  },
+  {
+    "datum": "17.10.2017",
+    "titel": "Schulneulinge 2018",
+    "beschreibung": "Anmeldetermine für die Schulneulinge in 2018: 15 - 18 Uhr (Bitte Termin verinbaren)"
+  },
+  {
+    "datum": "18.10.2017",
+    "titel": "Schulneulinge 2018",
+    "beschreibung": " Anmeldetermine für die Schulneulinge in 2018: 11- 13 Uhr und 15 - 18 Uhr (Bitte Termin vereinbaren)"
+  },
+  {
+    "datum": "19.10.2017",
+    "titel": "Schulneulinge 2018",
+    "beschreibung": "Anmeldetermine für die Schulneulinge in 2018: 11 - 13 Uhr (Bitte Termin vereinbaren)"
+  },
+  {
+    "datum": "17.11.2017",
+    "titel": "Sankt Martin",
+    "beschreibung": "Treffen um 17.15 Uhr auf dem Schulhof, Urdenbacher Allee 91"
   }
-
 ]
 
