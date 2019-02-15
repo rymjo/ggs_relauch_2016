@@ -6,7 +6,7 @@
   },
   {
     "datum": "01.03.2019",
-    "titel": "Unterrichtsfrei",
+    "titel": "unterrichtsfrei",
     "beschreibung": "beweglicher Ferientag - unterrichtsfrei"
   },
   {
@@ -16,12 +16,12 @@
   },
   {
     "datum": "05.03.2019",
-    "titel": "Unterrichtsfrei",
+    "titel": "unterrichtsfrei",
     "beschreibung": "beweglicher Ferientag - unterrichtsfrei"
   },
   {
     "datum": "30.05.2019",
-    "titel": "Unterrichtsfrei",
+    "titel": "unterrichtsfrei",
     "beschreibung": "beweglicher Ferientag - unterrichtsfrei"
   },
   {
@@ -39,6 +39,11 @@
     "titel": "Tag der offenen Tür",
     "beschreibung": "09.00 - 09.45 Uhr an der Urdenbacher Allee 91; 10.15 - 11.00 Uhr an der Grather Str. 16; 17.00 Uhr Informationsveranstaltung an der Garather Str."
   },
+   {
+    "datum": "30.09.2019",
+    "titel": "Schulneulinge 2020",
+    "beschreibung": "Informationveranstaltung für Eltern der Schulneulinge 2020"
+  },
   {
     "datum": "30.09.2019",
     "titel": "Anmeldetermin für Geschwisterkinder",
@@ -52,17 +57,17 @@
   {
     "datum": "08.10.2019",
     "titel": "Schulneulinge 2020",
-    "beschreibung": "Anmeldetermine für die Schulneulinge in 2020: 11 - 13 Uhr (Bitte Termin vereinbaren und Anmeldebogen als pdf-Dokument runterladen und ausgefüllt mitbringen )"
+    "beschreibung": "Anmeldetermine für die Schulneulinge in 2020: 11 - 13 Uhr (Bitte Termin vereinbaren und Anmeldebogen als pdf-Dokument runterladen und ausgefüllt mitbringen).<br><a href=/assets/pdf/Anmeldebogen_Feb-2019.pdf target=_blank>Den Anmeldebogen können Sie hier herunterladen.</a>"
   },
   {
     "datum": "09.10.2019",
     "titel": "Schulneulinge 2020",
-    "beschreibung": "Anmeldetermine für die Schulneulinge in 2020: 11 - 13 Uhr und 15 - 18 Uhr (Bitte Termin vereinbaren und Anmeldebogen als pdf-Dokument runterladen und ausgefüllt mitbringen )"
+    "beschreibung": "Anmeldetermine für die Schulneulinge in 2020: 11 - 13 Uhr und 15 - 18 Uhr (Bitte Termin vereinbaren und Anmeldebogen als pdf-Dokument runterladen und ausgefüllt mitbringen).<br><a href=/assets/pdf/Anmeldebogen_Feb-2019.pdf target=_blank>Den Anmeldebogen können Sie hier herunterladen.</a>"
   },
   {
     "datum": "10.10.2019",
     "titel": "Schulneulinge 2020",
-    "beschreibung": "Anmeldetermine für die Schulneulinge in 2010: 15 - 18 Uhr (Bitte Termin vereinbaren und Anmeldebogen als pdf-Dokument runterladen und ausgefüllt mitbringen )n"
+    "beschreibung": "Anmeldetermine für die Schulneulinge in 2010: 15 - 18 Uhr (Bitte Termin vereinbaren und Anmeldebogen als pdf-Dokument runterladen und ausgefüllt mitbringen).<br><a href=/assets/pdf/Anmeldebogen_Feb-2019.pdf target=_blank>Den Anmeldebogen können Sie hier herunterladen.</a>"
   },
   {
     "datum": "15.11.2019",

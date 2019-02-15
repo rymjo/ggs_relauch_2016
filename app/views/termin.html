@@ -24,7 +24,13 @@
         </thead>
         <tbody>
         <tr ng-repeat="item in allTermine | filter:termine.search | orderBy:'DATUM':true">
-          <td ng-repeat="(key, val) in item">{{val}}</td>
+          <td>{{item.datum}}</td>
+          <td>{{item.titel}}</td>
+          <td>
+           <span ng-bind-html="renderHtml(item.beschreibung)">
+             {{item.beschreibung}}
+            </span>
+            </td>
         </tr>
         </tbody>
         <tfoot>
